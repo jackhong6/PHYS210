@@ -1,0 +1,17 @@
+Line 1:  Valid python
+Line 2:  Valid python
+Line 3:  Invalid syntax. The line ends with a 'b' after an expression.
+         If you wanted multiplication, you need to type the * operator between
+         the two variables. (a * b)
+Line 4:  Valid python
+Line 5:  Invalid. Math error. Division by 0.
+Line 6:  Valid python
+Line 7:  Valid python
+Line 9:  Valid python
+Line 10: Invalid. '+' operator does not work between string and integer types
+Line 11: Valid python
+Line 13: Invalid. Variable '1_character' begins with a number.
+Line 14: Invalid. Line begins with an unexpected indent
+         (and white space does matter in Python)
+Line 16: Valid Python
+Line 17: Invalid. Cannot compare string with int.

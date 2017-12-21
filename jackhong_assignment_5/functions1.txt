@@ -1,0 +1,26 @@
+Line 1: Valid
+
+Line 3: Valid
+Line 4: Valid
+
+Line 6: Valid
+Line 7: Valid
+Line 8: Valid
+
+Line 10: Valid
+Line 11, 12: Both lines should be in the same block, so either unindent line 11
+once, or indent line 12 one more time. To also match the other code, you should
+unindent line 11 once.
+
+Line 14: Call to foo() is missing an argument.
+Line 15: Valid
+Line 16: Valid
+Line 17: Invalid. Missing argument a :(
+
+Line 19: Valid
+Line 20: pi is not defined. You'd need to use np.pi
+
+Line 22: Valid
+Line 23: Valid
+Line 24: Valid
+Line 25: Valid, but only because c is never used in bar.

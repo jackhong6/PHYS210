@@ -1,0 +1,11 @@
+The maximum velocity is 1424.304813 km/h.
+The time when max velocity is reached is 56.255000 s.
+The final velocity on the ground is 4.978040 m/s.
+The total duration of the jump is 545.298000 s.
+
+The velocity increases a lot at the beginning because gravity accelerates the
+jumper towards the Earth and the atmosphere is too thin and the velocity too
+slow for air drag to be a significant factor in opposing gravity. The velocity
+starts to decrease even before the parachute opens because the atmosphere
+becomes thicker and the jumper's velocity faster so that air drag becomes
+greater than gravity and the acceleration then points upwards.

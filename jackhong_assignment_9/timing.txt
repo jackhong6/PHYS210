@@ -1,0 +1,5 @@
+Time for calc2exp_array.py to run: 1 loop, best of 3: 1.6 s per loop
+Time for calc2exp_loops.py to run: 1 loop, best of 3: 1min 7s per loop
+
+Times were measured using ipython %timeit without plotting the result.
+(plotfig = False)

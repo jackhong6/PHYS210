@@ -1,0 +1,6 @@
+“For which values of h does your function become inaccurate?”
+
+Well, that depends on what you mean by inaccurate. The plot in error_vs_h.pdf
+shows that the optimal h for this numerical differentiation method with f(x)=sin(x)+10x
+is around 1e-5. The error then increases following a power relationship (since the figure
+is a log-log plot) on either side of the optimal h.

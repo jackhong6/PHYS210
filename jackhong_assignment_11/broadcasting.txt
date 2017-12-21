@@ -1,0 +1,19 @@
+1 a = np.arange(5)                    # VALID
+2 b = np.random.random(4)             # VALID
+3 c = np.arange(20).reshape((4,5))    # VALID
+4
+5 d=a+b  #INVALID: a has 5 elements and b has 4. Cannot be broadcast together. Must make a and b the same size. (Maybe append 0 to end of b)
+6 e=a+c  #VALID: a is broadcast to match c
+7 f=b*c  #INVALID: Cannot broadcast together with shapes (4,) (4,5). Must make b the same size as c. (Python is performing element by element multiplication.)
+8 g=c.T*b #VALID
+
+
+If a,b,c are matrices:
+a = np.mat(a)
+b = np.mat(b)
+c = np.mat(c)
+
+d=a+b  #INVALID: operands could not be broadcast together with shapes (1,5) (1,4). Must make a and b same size. (Maybe append 0 to end of b)
+e=a+c  #VALID
+f=b*c  #VALID: Matrix multiplication performed
+g=c.T*b #INVALID: shapes (5,4) and (1,4) not aligned: 4 (dim 1) != 1 (dim 0). (g=c.T*b.T works though.)

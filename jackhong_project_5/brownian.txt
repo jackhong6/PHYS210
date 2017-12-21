@@ -1,0 +1,8 @@
+The plot in brownianscatter.pdf shows a clearly linear relationship between
+the distance squared and time. This implies Einstein's prediction that
+dispersion (distance) scales with the square root of time.
+
+From the equation given in the project instructions, <r^2> = 2Dt, the slope of
+the plot of <r^2> vs t is 2D.
+
+slope = 0.000557 = 2D  --> D = 0.000279

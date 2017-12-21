@@ -1,0 +1,7 @@
+The launch angle should be smaller than pi/4 to reach the maximum distance.
+
+This does depend on the initial speed and comparing the plots of distance vs angle
+for v0=10 and v0=80, we see that the greater v0 is, the smaller the launch angle
+needs to be.
+
+Note that if air drag is ignored, the optimal launch angle is exactly pi/4.
